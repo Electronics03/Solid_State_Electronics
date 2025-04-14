@@ -3,7 +3,7 @@
 - $Al_{0.3}Ga_{0.7}As$사이에 $GaAs$가 있는 구조이다.
 - $Al_{0.3}Ga_{0.7}As$의 $E_c, E_v$의 차이는 1.85ev이다.
 - $GaAs$의 $E_v$가 $Al_{0.3}Ga_{0.7}As$의 $E_v$보다 0.14eV 더 크고, $GaAs$의 $E_c$가 $Al_{0.3}Ga_{0.7}As$의 $E_c$보다 0.28eV 더 작다.
-- $GaAs$의 폭은 $50 \AA$이다.
+- $`GaAs$의 폭은 $50 \AA`$이다.
 - $m_n = m_n^{*}\cdot m_o = 0.067m_o$
 - $m_h = m_h^{*}\cdot m_o = 0.45m_o$
 - $m_o = 9.11 \cdot 10^{-31} kg$
@@ -26,19 +26,15 @@ $$
 ### 2) 주어진 조건에 따라 미분방정식을 해결한다
 
 $$
-{
-\begin{aligned}{
+\begin{aligned}
 [\frac{-ℏ^2}{2m}\frac{d^2}{dx^2} +V(x)]\psi(x)&=E\psi(x)\\
 &
 \begin{cases}
-{
+
 \frac{d^2}{dx^2}\psi(x)+\frac{2m}{ℏ^2}[E+V_0]\psi(x)=0&(-a<x<a)\\
 \frac{d^2}{dx^2}\psi(x)-\frac{2m}{ℏ^2}[-E]\psi(x)=0&(x<-a), (a<x)\\
 \end{cases}
-}
-}
 \end{aligned}
-}
 $$
 
 $$
