@@ -18,8 +18,8 @@
 $$
 V(x)=
 \begin{cases}
--V_0&(-a<x<a)\\
-0&otherwise\\
+-V_0 & -a<x<a \\
+0 & \text{otherwise}
 \end{cases}
 $$
 
@@ -30,7 +30,7 @@ $$
 [\frac{-ℏ^2}{2m}\frac{d^2}{dx^2} +V(x)]\psi(x)&=E\psi(x)\\&
 \begin{cases}
 \frac{d^2}{dx^2}\psi(x)+\frac{2m}{ℏ^2}[E+V_0]\psi(x)=0&(-a<x<a)\\
-\frac{d^2}{dx^2}\psi(x)-\frac{2m}{ℏ^2}[-E]\psi(x)=0&otherwise\\
+\frac{d^2}{dx^2}\psi(x)-\frac{2m}{ℏ^2}[-E]\psi(x)=0&\text{otherwise}\\
 \end{cases}
 \end{aligned}
 $$
