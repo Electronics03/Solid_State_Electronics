@@ -26,13 +26,15 @@ $$
 ### 2) 주어진 조건에 따라 미분방정식을 해결한다
 
 $$
-\begin{aligned}[\frac{-ℏ^2}{2m}\frac{d^2}{dx^2} +V(x)]\psi(x)&=E\psi(x)\\&
+[\frac{-ℏ^2}{2m}\frac{d^2}{dx^2} +V(x)]\psi(x)=E\psi(x)
+$$
+
+$$
 \begin{cases}
 \frac{d^2}{dx^2}\psi(x)-\frac{2m}{ℏ^2}[-E]\psi(x)=0&\text{(x<-a)}\\
 \frac{d^2}{dx^2}\psi(x)+\frac{2m}{ℏ^2}[E+V_0]\psi(x)=0&\text{(-a<x<a)}\\
 \frac{d^2}{dx^2}\psi(x)-\frac{2m}{ℏ^2}[-E]\psi(x)=0&\text{(x<-a)}
 \end{cases}
-\end{aligned}
 $$
 
 $$
