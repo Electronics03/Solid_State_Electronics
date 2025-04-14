@@ -16,7 +16,7 @@
 ### 1) 주어진 전위의 조건
 
 $$
-V(x)=\begin{cases}
+\begin{cases}
 V_0&\text{(x<-a)}\\
 0&\text{(-a<x<a)}\\
 V_0&\text{(x>a)}
