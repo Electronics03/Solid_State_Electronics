@@ -14,6 +14,7 @@
 
 ## III. 유한 전위 우물 문제의 식을 유도하자
 ### 1) 주어진 전위의 조건
+
 $$
 V(x)=\begin{cases}
 -V_0&(-a<x<a)\\
@@ -22,6 +23,7 @@ V(x)=\begin{cases}
 $$
 
 ### 2) 주어진 조건에 따라 미분방정식을 해결한다
+
 $$
 \begin{aligned}
 [\frac{-ℏ^2}{2m}\frac{d^2}{dx^2} +V(x)]\psi(x)&=E\psi(x)\\
@@ -63,6 +65,7 @@ $$
 $$
 
 ### 3) 경계조건을 이용하여 상수를 결정한다
+
 $$
 \psi(x)=\begin{cases}
 \psi_-(-\infty)=0&(1)\\
@@ -76,63 +79,63 @@ $$
 
 - $(1)$, $(2)$ 에서 $B_{-}=0$, $A_+=0$
     
-    $$
-    \psi(x)=\begin{cases}
-    \psi_-(x)=A_-e^{Kx}&(x<-a)\\
-    \psi_0(x)=A_0\sin(K_0x)+B_0\cos(K_0x)&(-a<x<a)\\
-    \psi_+(x)=B_+e^{-Kx}&(x>a)\\
-    \end{cases}
-    $$
-    
-    $$
-    \frac{d}{dx}\psi(x)=\begin{cases}
-    \frac{d}{dx}\psi_-(x)=A_-Ke^{Kx}&(x<-a)\\
-    \frac{d}{dx}\psi_0(x)=A_0K_0\cos(K_0x)-B_0K_0\sin(K_0x)&(-a<x<a)\\
-    \frac{d}{dx}\psi_+(x)=-B_+Ke^{-Kx}&(x>a)\\
-    \end{cases}
-    $$
-    
-    $$
-    \psi(x)=\begin{cases}
-    A_-e^{-Ka}=A_0\sin(-K_0a)+B_0\cos(-K_0a)&(3)\\
-    B_+e^{-Ka}=A_0\sin(K_0a)+B_0\cos(K_0a)&(4)\\
-    A_-Ke^{-Ka}=A_0K_0\cos(-K_0a)-B_0K_0\sin(-K_0a)&(5)\\
-    -B_+Ke^{-Ka}=A_0K_0\cos(K_0a)-B_0K_0\sin(K_0a)&(6)\\
-    \end{cases}
-    $$
+$$
+\psi(x)=\begin{cases}
+\psi_-(x)=A_-e^{Kx}&(x<-a)\\
+\psi_0(x)=A_0\sin(K_0x)+B_0\cos(K_0x)&(-a<x<a)\\
+\psi_+(x)=B_+e^{-Kx}&(x>a)\\
+\end{cases}
+$$
+
+$$
+\frac{d}{dx}\psi(x)=\begin{cases}
+\frac{d}{dx}\psi_-(x)=A_-Ke^{Kx}&(x<-a)\\
+\frac{d}{dx}\psi_0(x)=A_0K_0\cos(K_0x)-B_0K_0\sin(K_0x)&(-a<x<a)\\
+\frac{d}{dx}\psi_+(x)=-B_+Ke^{-Kx}&(x>a)\\
+\end{cases}
+$$
+
+$$
+\psi(x)=\begin{cases}
+A_-e^{-Ka}=A_0\sin(-K_0a)+B_0\cos(-K_0a)&(3)\\
+B_+e^{-Ka}=A_0\sin(K_0a)+B_0\cos(K_0a)&(4)\\
+A_-Ke^{-Ka}=A_0K_0\cos(-K_0a)-B_0K_0\sin(-K_0a)&(5)\\
+-B_+Ke^{-Ka}=A_0K_0\cos(K_0a)-B_0K_0\sin(K_0a)&(6)\\
+\end{cases}
+$$
     
 - $(3)\cdot K$, $(5)\cdot -1$ 에서
     
-    $$
-    \begin{aligned}
-    \psi(x)&=\begin{cases}
-    A_-Ke^{-Ka}=A_0K\sin(-K_0a)+B_0K\cos(-K_0a)&(3)\\
-    -A_-Ke^{-Ka}=-A_0K_0\cos(-K_0a)+B_0K_0\sin(-K_0a)&(5)
-    \end{cases}\\
-    0&=A_0(K\sin(-K_0a)-K_0\cos(-K_0a))+B_0(K\cos(-K_0a)-K_0\sin(-K_0a))\\
-    &\begin{cases}
-    K\sin(-K_0a)-K_0\cos(-K_0a)=0\\
-    K\cos(-K_0a)+K_0\sin(-K_0a)=0
-    \end{cases}
-    \end{aligned}
-    $$
+$$
+\begin{aligned}
+\psi(x)&=\begin{cases}
+A_-Ke^{-Ka}=A_0K\sin(-K_0a)+B_0K\cos(-K_0a)&(3)\\
+-A_-Ke^{-Ka}=-A_0K_0\cos(-K_0a)+B_0K_0\sin(-K_0a)&(5)
+\end{cases}\\
+0&=A_0(K\sin(-K_0a)-K_0\cos(-K_0a))+B_0(K\cos(-K_0a)-K_0\sin(-K_0a))\\
+&\begin{cases}
+K\sin(-K_0a)-K_0\cos(-K_0a)=0\\
+K\cos(-K_0a)+K_0\sin(-K_0a)=0
+\end{cases}
+\end{aligned}
+$$
     
 - $(4)\cdot K$, $(6)$ 에서
     
-    $$
-    \begin{aligned}
-    \psi(x)&=\begin{cases}
-    B_+Ke^{-Ka}=A_0K\sin(K_0a)+B_0K\cos(K_0a)&(4)\\
-    -B_+Ke^{-Ka}=A_0K_0\cos(K_0a)-B_0K_0\sin(K_0a)&(6)\\
-    \end{cases}\\
-    0&=A_0(K\sin(K_0a)+K_0\cos(K_0a))+B_0(K\cos(K_0a)-K_0\sin(K_0a))\\
-    &\begin{cases}
-    K\sin(K_0a)+K_0\cos(K_0a)=0\\
-    K\cos(K_0a)-K_0\sin(K_0a)=0
-    \end{cases}
-    \end{aligned}
-    $$
-    
+$$
+\begin{aligned}
+\psi(x)&=\begin{cases}
+B_+Ke^{-Ka}=A_0K\sin(K_0a)+B_0K\cos(K_0a)&(4)\\
+-B_+Ke^{-Ka}=A_0K_0\cos(K_0a)-B_0K_0\sin(K_0a)&(6)\\
+\end{cases}\\
+0&=A_0(K\sin(K_0a)+K_0\cos(K_0a))+B_0(K\cos(K_0a)-K_0\sin(K_0a))\\
+&\begin{cases}
+K\sin(K_0a)+K_0\cos(K_0a)=0\\
+K\cos(K_0a)-K_0\sin(K_0a)=0
+\end{cases}
+\end{aligned}
+$$
+
 
 ### 4) 결론
 
