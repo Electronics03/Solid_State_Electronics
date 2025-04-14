@@ -33,7 +33,7 @@ $$
 \begin{cases}
 \frac{d^2}{dx^2}\psi(x)-\frac{2m}{ℏ^2}[-E]\psi(x)=0&\text{(x<-a)}\\
 \frac{d^2}{dx^2}\psi(x)+\frac{2m}{ℏ^2}[E+V_0]\psi(x)=0&\text{(-a<x<a)}\\
-\frac{d^2}{dx^2}\psi(x)-\frac{2m}{ℏ^2}[-E]\psi(x)=0&\text{(x<-a)}
+\frac{d^2}{dx^2}\psi(x)-\frac{2m}{ℏ^2}[-E]\psi(x)=0&\text{(x<-a)}\\
 \end{cases}
 $$
 
