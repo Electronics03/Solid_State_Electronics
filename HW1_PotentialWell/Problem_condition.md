@@ -19,7 +19,7 @@ $$
 V(x)=
 \begin{cases}
 -V_0&(-a<x<a)\\
-0&otherwise
+0&otherwise\\
 \end{cases}
 $$
 
@@ -29,8 +29,8 @@ $$
 \begin{aligned}
 [\frac{-ℏ^2}{2m}\frac{d^2}{dx^2} +V(x)]\psi(x)&=E\psi(x)\\&
 \begin{cases}
-\frac{d^2}{dx^2}\psi(x)+\frac{2m}{ℏ^2}[E+V_0]\psi(x)=0&(-a<x<a)\\\\
-\frac{d^2}{dx^2}\psi(x)-\frac{2m}{ℏ^2}[-E]\psi(x)=0&otherwise
+\frac{d^2}{dx^2}\psi(x)+\frac{2m}{ℏ^2}[E+V_0]\psi(x)=0&(-a<x<a)\\
+\frac{d^2}{dx^2}\psi(x)-\frac{2m}{ℏ^2}[-E]\psi(x)=0&otherwise\\
 \end{cases}
 \end{aligned}
 $$
@@ -39,7 +39,7 @@ $$
 \begin{aligned}
 \frac{d^2}{dx^2}\psi(x)+\frac{2m}{ℏ^2}[E+V_0]\psi(x)&=0\\
 K_0^2=\frac{2m}{ℏ^2}[E+V_0]\\
-\frac{d^2}{dx^2}\psi(x)+K_0^2\psi(x)&=0\\\\
+\frac{d^2}{dx^2}\psi(x)+K_0^2\psi(x)&=0\\
 \therefore \psi_0(x)=A_0\sin(K_0x)+B_0\cos(K_0x)
 \end{aligned}
 $$
