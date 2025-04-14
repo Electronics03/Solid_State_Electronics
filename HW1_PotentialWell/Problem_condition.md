@@ -17,9 +17,9 @@
 
 $$
 \begin{cases}
-V_0&\text{(x<-a)}\\
-0&\text{(-a<x<a)}\\
-V_0&\text{(x>a)}
+V(x)=V_0&(x<-a)\\
+V(x)=0&(-a<x<a)\\
+V(x)=V_0&(x>a)\\
 \end{cases}
 $$
 
