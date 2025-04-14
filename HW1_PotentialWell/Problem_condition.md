@@ -16,10 +16,10 @@
 ### 1) 주어진 전위의 조건
 
 $$
-V(x)=
-\begin{cases}
--V_0 & -a<x<a \\
-0 & \text{otherwise}
+\psi(x)=\begin{cases}
+\psi_-(x)=A_-e^{Kx}+B_-e^{-Kx}&(x<-a)\\
+\psi_0(x)=A_0\sin(K_0x)+B_0\cos(K_0x)&(-a<x<a)\\
+\psi_+(x)=A_+e^{Kx}+B_+e^{-Kx}&(x>a)\\
 \end{cases}
 $$
 
@@ -27,7 +27,8 @@ $$
 
 $$
 \begin{aligned}
-[\frac{-ℏ^2}{2m}\frac{d^2}{dx^2} +V(x)]\psi(x)&=E\psi(x)\\&
+[\frac{-ℏ^2}{2m}\frac{d^2}{dx^2} +V(x)]\psi(x)&=E\psi(x)\\
+&
 \begin{cases}
 \frac{d^2}{dx^2}\psi(x)+\frac{2m}{ℏ^2}[E+V_0]\psi(x)=0&(-a<x<a)\\
 \frac{d^2}{dx^2}\psi(x)-\frac{2m}{ℏ^2}[-E]\psi(x)=0&\text{otherwise}\\
