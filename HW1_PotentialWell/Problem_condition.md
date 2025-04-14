@@ -31,9 +31,9 @@ $$
 
 $$
 \begin{cases}
-\frac{d^2}{dx^2}\psi(x)-\frac{2m}{ℏ^2}[-E]\psi(x)=0&\text{(x<-a)}\\
-\frac{d^2}{dx^2}\psi(x)+\frac{2m}{ℏ^2}[E+V_0]\psi(x)=0&\text{(-a<x<a)}\\
-\frac{d^2}{dx^2}\psi(x)-\frac{2m}{ℏ^2}[-E]\psi(x)=0&\text{(x<-a)}\\
+\dfrac{d^2}{dx^2}\psi(x)-\dfrac{2m}{\hbar^2}[-E]\psi(x)=0 & \text{for } x < -a \\
+\dfrac{d^2}{dx^2}\psi(x)+\dfrac{2m}{\hbar^2}[E+V_0]\psi(x)=0 & \text{for } -a < x < a \\
+\dfrac{d^2}{dx^2}\psi(x)-\dfrac{2m}{\hbar^2}[-E]\psi(x)=0 & \text{for } x > a
 \end{cases}
 $$
 
