@@ -16,10 +16,10 @@
 ### 1) 주어진 전위의 조건
 
 $$
-V(x)=
-\begin{cases}
--V_0 & (-a<x<a) \\
-0 & (x<-a), (a<x)
+V(x)=\begin{cases}
+V_0&(x<-a)\\
+0&(-a<x<a)\\
+V_0&(x>a)\\
 \end{cases}
 $$
 
